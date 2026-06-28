@@ -163,9 +163,9 @@ p:last-child {
 }
 
 .hero-tag {
-  font-size: 0.78rem;
+  font-size: 1rem;
   font-weight: 600;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--terracotta);
   margin-bottom: 20px;
