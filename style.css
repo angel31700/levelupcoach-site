@@ -16,6 +16,8 @@
   --mid-gray: #6B6B6B;
   --light-gray: #E8E2DA;
   --section-dark: #1E1A17;
+  --sage: #7A8C6E;
+  --sage-dark: #5C6B52;
   --section-warm: #F5EFE6;
   --font-serif: 'Playfair Display', Georgia, serif;
   --font-sans: 'Inter', system-ui, sans-serif;
@@ -151,7 +153,7 @@ p:last-child {
    HERO
    ===================== */
 .hero {
-  background-color: var(--section-dark);
+  background-color: var(--sage);
   color: #fff;
   padding: 100px 24px 80px;
   text-align: center;
@@ -319,7 +321,7 @@ p:last-child {
    WHO IT IS FOR
    ===================== */
 .fit {
-  background-color: var(--section-dark);
+  background-color: var(--sage);
   padding: 90px 24px;
   color: #fff;
 }
@@ -525,7 +527,7 @@ p:last-child {
    ===================== */
 .consult {
   padding: 100px 24px;
-  background-color: var(--section-dark);
+  background-color: var(--sage);
   color: #fff;
 }
 
@@ -626,7 +628,7 @@ p:last-child {
    FOOTER
    ===================== */
 .footer {
-  background-color: #110E0B;
+  background-color: var(--sage-dark);
   padding: 32px 24px;
 }
 
