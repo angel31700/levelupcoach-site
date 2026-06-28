@@ -266,7 +266,8 @@ p:last-child {
 
 .about-img-wrap {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-img-card {
@@ -302,7 +303,7 @@ p:last-child {
   font-family: var(--font-serif);
   font-size: 2.4rem;
   font-weight: 700;
-  color: var(--charcoal);
+  color: var(--terracotta);
   line-height: 1;
   margin: 0;
 }
