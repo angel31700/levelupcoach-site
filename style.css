@@ -399,53 +399,50 @@ p:last-child {
    ===================== */
 .outcomes {
   padding: 90px 24px;
-  background-color: var(--cream);
+  background-color: var(--terracotta);
+}
+
+.outcomes .section-label {
+  color: rgba(255,255,255,0.65);
 }
 
 .outcomes h2 {
-  color: var(--charcoal);
+  color: #fff;
   margin-bottom: 48px;
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
 }
 
 .outcomes-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 28px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
 }
 
 .outcome-card {
-  padding: 36px 28px;
-  border: 1px solid var(--light-gray);
+  padding: 32px 24px;
+  border: 1px solid rgba(255,255,255,0.3);
   border-radius: 6px;
-  background-color: #fff;
-  position: relative;
-  overflow: hidden;
-  transition: box-shadow 0.2s ease;
+  background-color: rgba(255,255,255,0.12);
+  transition: background 0.2s ease;
 }
 
 .outcome-card:hover {
-  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
-}
-
-.outcome-num {
-  font-family: var(--font-serif);
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: var(--light-gray);
-  position: absolute;
-  top: 16px;
-  right: 20px;
-  line-height: 1;
+  background-color: rgba(255,255,255,0.2);
 }
 
 .outcome-card h3 {
-  color: var(--charcoal);
-  font-size: 1.05rem;
-  margin-bottom: 10px;
+  color: #fff;
+  font-family: var(--font-sans);
+  font-size: 0.98rem;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.5;
 }
 
-.outcome-card p {
-  font-size: 0.92rem;
+@media (max-width: 768px) {
+  .outcomes-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /* =====================
