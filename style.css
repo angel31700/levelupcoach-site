@@ -169,7 +169,7 @@ p:last-child {
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--terracotta);
+  color: rgba(255,255,255,0.85);
   margin-bottom: 20px;
 }
 
@@ -323,7 +323,7 @@ p:last-child {
 }
 
 .fit .section-label {
-  color: var(--terracotta);
+  color: rgba(255,255,255,0.75);
 }
 
 .fit h2 {
@@ -431,7 +431,7 @@ p:last-child {
 }
 
 .outcomes .section-label {
-  color: rgba(255,255,255,0.65);
+  color: rgba(255,255,255,0.82);
 }
 
 .outcomes h2 {
@@ -528,7 +528,7 @@ p:last-child {
 }
 
 .consult .section-label {
-  color: var(--terracotta);
+  color: rgba(255,255,255,0.75);
 }
 
 .consult h2 {
