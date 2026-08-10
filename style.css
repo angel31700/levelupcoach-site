@@ -149,6 +149,18 @@ p:last-child {
   letter-spacing: 0.01em;
 }
 
+.nav-link {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--mid-gray);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: var(--charcoal);
+}
+
 /* =====================
    HERO
    ===================== */
@@ -494,6 +506,133 @@ p:last-child {
 @media (max-width: 768px) {
   .outcomes-grid {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* =====================
+   PRICING
+   ===================== */
+.pricing {
+  padding: 90px 24px;
+  background-color: var(--cream);
+}
+
+.pricing h2 {
+  color: var(--charcoal);
+  margin-bottom: 12px;
+}
+
+.pricing-sub {
+  max-width: 520px;
+  font-size: 1.05rem;
+  margin-bottom: 48px;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.pricing-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 44px 40px;
+  border: 1.5px solid var(--light-gray);
+}
+
+.pricing-featured {
+  border-color: var(--terracotta);
+  position: relative;
+}
+
+.pricing-badge {
+  display: inline-block;
+  background: var(--terracotta);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 5px 14px;
+  border-radius: 999px;
+  margin-bottom: 24px;
+}
+
+.pricing-price {
+  font-family: var(--font-serif);
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--charcoal);
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.pricing-period {
+  font-size: 0.85rem;
+  color: var(--mid-gray);
+  margin-bottom: 32px;
+}
+
+.pricing-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 32px;
+}
+
+.pricing-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--light-gray);
+  font-size: 0.95rem;
+  color: var(--charcoal);
+  gap: 12px;
+}
+
+.pricing-list li span {
+  font-size: 0.8rem;
+  color: var(--mid-gray);
+  white-space: nowrap;
+}
+
+.pricing-note {
+  font-size: 0.78rem;
+  color: var(--mid-gray);
+  text-align: center;
+  margin-top: 12px;
+}
+
+.pricing-info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 8px;
+}
+
+.pricing-info-block h3 {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  color: var(--charcoal);
+  margin-bottom: 10px;
+}
+
+.pricing-steps {
+  padding-left: 20px;
+}
+
+.pricing-steps li {
+  color: var(--mid-gray);
+  font-size: 0.95rem;
+  padding: 5px 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .pricing-grid {
+    grid-template-columns: 1fr;
   }
 }
 
