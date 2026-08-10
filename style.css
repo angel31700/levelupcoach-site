@@ -349,6 +349,36 @@ p:last-child {
   margin-bottom: 24px;
 }
 
+.about-credentials {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+  padding-top: 28px;
+  border-top: 1px solid var(--light-gray);
+}
+
+.about-cred {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cred-num {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--terracotta);
+  line-height: 1;
+}
+
+.cred-label {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--mid-gray);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
 /* =====================
    WHO IT IS FOR
    ===================== */
